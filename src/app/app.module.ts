@@ -10,6 +10,7 @@ import { HabilidadesComponent } from './pages/habilidades/habilidades.component'
 import { PortifolioComponent } from './pages/portifolio/portifolio.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { CardHomeComponent } from './components/card-home/card-home.component';
+import { TituloHomeComponent } from './components/titulo-home/titulo-home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CardHomeComponent } from './components/card-home/card-home.component';
     HabilidadesComponent,
     PortifolioComponent,
     ContatoComponent,
-    CardHomeComponent
+    CardHomeComponent,
+    TituloHomeComponent
   ],
   imports: [
     BrowserModule,
