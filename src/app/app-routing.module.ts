@@ -5,6 +5,7 @@ import { SobreComponent } from './pages/sobre/sobre.component';
 import { PortifolioComponent } from './pages/portifolio/portifolio.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { HabilidadesComponent } from './pages/habilidades/habilidades.component';
+import { CertificadosComponent } from './pages/certificados/certificados.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path:'portfolio',
     component:PortifolioComponent
+  },
+  {
+    path:'certificados',
+    component:CertificadosComponent
   },
   {
     path:'contato',

@@ -1,0 +1,72 @@
+body,html{
+  max-width: 100%;
+}
+.container__habilidades{
+  max-width: 100%;
+  background-color: #1F252E;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container__habilidades-descricao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.container__habilidades-descricao > app-titulo-compartilhado{
+  margin-bottom: 40px;
+}
+
+.container__habilidades-barra{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__barra{
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.container__barra-descricao{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: small;
+  margin-top: 20px;
+}
+
+.container__barra-descricao > p{
+  width: 100%;
+}
+
+#elemento__barra-descricao{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.container__barra-real{
+  width: 300px;
+  height: 10px;
+}
+
+.barra60{
+  background: linear-gradient(90deg, rgba(255,69,0,0.8928370100728582) 60%, rgba(83,89,101,0.648454987600948) 68%);
+}
+
+.barra70{
+  background: linear-gradient(90deg, rgba(255,69,0,0.8928370100728582) 70%, rgba(83,89,101,0.648454987600948) 78%);
+}
+
+.barra80{
+  background: linear-gradient(90deg, rgba(255,69,0,0.8928370100728582) 80%, rgba(83,89,101,0.648454987600948) 88%);
+}
