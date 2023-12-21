@@ -9,12 +9,18 @@
 .container__total{
   display: flex;
   flex-direction: row;
-  height: 88vh;
+  height: 100%;
   font-size: larger;
+  padding-top: 80px;
 }
 
 .container__avatar{
   width: 80%;
+  height: 100%;
+}
+
+.container__avatar > img{
+  max-height: 100%;
 }
 
 .container__sobre{

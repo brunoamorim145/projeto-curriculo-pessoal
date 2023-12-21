@@ -5,6 +5,7 @@
 .container__article{
   display: flex;
   flex-direction: row;
+  padding-top: 80px;
 }
 
 .articles__main{

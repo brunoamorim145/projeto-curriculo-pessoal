@@ -25,3 +25,7 @@
 .container__menu-bar > ul > li > a:hover{
   color: #FF4500;
 }
+
+.container__menu-bar > ul > li > a:focus{
+  color: #FF4500;
+}

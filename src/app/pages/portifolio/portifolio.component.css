@@ -1,0 +1,32 @@
+.container__portfolio{
+  width: 100%;
+  padding-top: 80px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container__portfolio-titulo{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container__portfolio-titulo > app-titulo-compartilhado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__portfolio-cards{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container__portfolio-cards > app-card-portfolio{
+  margin-left: 30px;
+}
