@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-titulo-home',
@@ -6,6 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./titulo-home.component.css']
 })
 export class TituloHomeComponent implements OnInit {
+
+  @Input()
+  descricaoHome:string = ""
+
+  @Input()
+  tituloHome:string = ""
+
+  @Input()
+  linkedinHome:string = ""
+
+  @Input()
+  instagramHome:string = ""
+
+  @Input()
+  gitHubHome:string = ""
 
   constructor() { }
 
