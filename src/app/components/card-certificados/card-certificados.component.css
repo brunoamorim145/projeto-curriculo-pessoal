@@ -11,14 +11,20 @@
   width: 100%;
   border-radius: 10px;
   margin-top: 10px;
+<<<<<<< HEAD
   height: 100%;
+=======
+>>>>>>> 87d4916d8178bb93ab9e66eead166c404804a4fc
 }
 
 .container__certificados-foto > img{
   border: 1px solid #F0F0F4;
   border-radius: 5px;
   max-width: 100%;
+<<<<<<< HEAD
   max-height: 100%;
+=======
+>>>>>>> 87d4916d8178bb93ab9e66eead166c404804a4fc
 
 }
 
