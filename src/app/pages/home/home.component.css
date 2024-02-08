@@ -1,0 +1,17 @@
+*{
+  background-color: linear-gradient(161.5deg, #000 50%, #fff 50%);
+}
+
+.container__article{
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+}
+
+.articles__main{
+  width: 100%;
+}
+
+.articles__others{
+  width: 100%;
+}

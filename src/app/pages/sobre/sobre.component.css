@@ -1,0 +1,53 @@
+*{
+  width: 100%;
+  color: #ffffff;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__total{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  font-size: larger;
+  padding-top: 80px;
+}
+
+.container__avatar{
+  width: 80%;
+  height: 100%;
+}
+
+.container__avatar > img{
+  max-height: 100%;
+}
+
+.container__sobre{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.container__sobre > h1{
+  max-width: 90%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.container__sobre > p{
+  max-width: 90%;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  line-height: 1.5em;
+  font-size: medium;
+}
+
+.container__sobre-informacoes-pessoal{
+  max-width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
