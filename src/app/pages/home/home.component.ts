@@ -3,11 +3,7 @@ import { Component, ElementRef, OnInit } from '@angular/core';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-<<<<<<< HEAD
-  styleUrls: ['./home.component.css', './home-responsive.component.css']
-=======
   styleUrls: ['./home.component.css']
->>>>>>> 87d4916d8178bb93ab9e66eead166c404804a4fc
 })
 export class HomeComponent implements OnInit {
 
